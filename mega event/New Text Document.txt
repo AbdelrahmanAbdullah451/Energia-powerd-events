@@ -1,0 +1,240 @@
+  <section class="container">
+
+            <div class="row">
+                <div class="col">
+                    <h4>computer engineering &amp; communication &amp; electronics </h4>
+                </div>
+            </div>
+
+
+
+            <div class="row my-5">
+
+
+                <div class="workshop col-md-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">workshop name</h4>
+                            
+                            <p class="card-text">Some quick example text to build on the card title
+                             and make up the bulk of the card's content.</p> <!--_____________ discription ______________-->
+                             <h6 class="card-subtitle mb-2 text-muted">
+                                    brought to you by : <br><br>
+                                     <i class=""></i> <!--_____________________________________ logo _____________________-->
+                                    <a href="#">company link</a> <!--________________________________ name_____________________-->
+                            </h6>
+                            </div>
+                    </div>
+                </div>
+                <div class="points col-md-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title"> covored points </h4>
+                            <ul>
+                                <li>point one</li>
+                                <li>point one</li>
+                                <li>point one</li>
+                                <li>point one</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="row mb-5">
+                <div class="workshop col-md-7">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">workshop name</h4>
+                                
+                                <p class="card-text">Some quick example text to build on the card title
+                                 and make up the bulk of the card's content.</p> <!--_____________ discription ______________-->
+                                 <h6 class="card-subtitle mb-2 text-muted">
+                                        brought to you by : <br><br>
+                                         <i class=""></i> <!--_____________________________________ logo _____________________-->
+                                        <a href="#">company link</a> <!--________________________________ name_____________________-->
+                                </h6>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="points col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title"> covored points </h4>
+                                <ul>
+                                    <li>point one</li>
+                                    <li>point one</li>
+                                    <li>point one</li>
+                                    <li>point one</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                 </div>
+            </div>
+
+            
+
+            <div class="row mb-5">
+                    <div class="workshop col-md-7">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">workshop name</h4>
+                                    
+                                    <p class="card-text">Some quick example text to build on the card title
+                                     and make up the bulk of the card's content.</p> <!--_____________ discription ______________-->
+                                     <h6 class="card-subtitle mb-2 text-muted">
+                                            brought to you by : <br><br>
+                                             <i class=""></i> <!--_____________________________________ logo _____________________-->
+                                            <a href="#">company link</a> <!--________________________________ name_____________________-->
+                                    </h6>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="points col-md-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title"> covored points </h4>
+                                    <ul>
+                                        <li>point one</li>
+                                        <li>point one</li>
+                                        <li>point one</li>
+                                        <li>point one</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                     </div>
+                </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+.workshop .card-body
+{
+    height: 210px;
+}
+.workshop h6 , h4
+{
+    text-transform: capitalize;
+}
+.workshop h4
+{
+    font-weight: 800;
+}
+
+.workshop h6 a
+{
+    color: teal;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.workshop:hover div
+{
+    transform: scale(1.03,1.03);
+    background-color: aquamarine;
+    border: none;
+}
+
+
+.points .card-body
+{
+    height: 210px;
+}
+.points ul
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+    
+}
+
+.points h4
+{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+.points:hover div
+{
+    transform: scale(1.03,1.03);
+    background-color: rgb(66, 103, 138);
+    border: none;
+__________________________________________
+
+        <section id="schedule" class="container text-center schedule py-5 mb-5">
+
+
+                <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Day #1
+                              </button>
+                            </h5>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                9 am <i class="fas fa-arrows-alt-h"></i> 10 am : Opening Speech <br> <hr>
+                                10 am <i class="fas fa-arrows-alt-h"></i> 12 am : Workshops Starting <br> <hr>
+                                12 pm <i class="fas fa-arrows-alt-h"></i> 1:30 pm : Break <br> <hr>
+                                1:30 pm <i class="fas fa-arrows-alt-h"></i> 4:30 am : Workshops Resume
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Day #2 &amp; Day #4
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                    9 am <i class="fas fa-arrows-alt-h"></i> 12:30 pm : Workshops Starting <br> <hr>
+                                    12:30 pm <i class="fas fa-arrows-alt-h"></i> 1:30 pm : Break <br> <hr>
+                                    1:30 pm <i class="fas fa-arrows-alt-h"></i>  4:30 : Workshops Resume
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Day #3
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                    9 am <i class="fas fa-arrows-alt-h"></i> 12 pm : Workshops Starting <br> <hr>
+                                    12 pm <i class="fas fa-arrows-alt-h"></i> 1:30 pm : Break <br> <hr>
+                                    1:30 pm <i class="fas fa-arrows-alt-h"></i>  4:30 : Workshops Resume
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                   
+                
+              
+        </section>
+
